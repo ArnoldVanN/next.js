@@ -468,7 +468,7 @@ function InnerLayoutRouter({
         loading: childNode.loading,
       }}
     >
-      {/* {childNode.layerAssets} */}
+      {childNode.layerAssets}
       {resolvedRsc}
     </LayoutRouterContext.Provider>
   )
